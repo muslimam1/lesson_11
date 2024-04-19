@@ -1,0 +1,104 @@
+.ipsum{
+    padding-bottom: 61px;
+    background-color: #F5F5F5;
+}
+
+.ipsum__title{
+    padding-top: 59px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 189%;
+    color: #000;
+   
+}
+
+.ipsum__text{
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 189%;
+    text-align: center;
+    color: #777;
+    margin-bottom: 79px;
+}
+
+.ipsum__list{
+    gap: 12px;
+    display: flex;
+}
+
+.ipsum__name{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    letter-spacing: -0.02em;
+    color: #4f4f4f;
+}
+
+.ipsum__frist{
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 153px;
+    height: 48px;
+}
+
+.ipsum__email{
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 319px;
+    height: 48px;
+}
+
+.ipsum__message{
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 319px;
+    height: 200px;
+}
+
+.ipsum__btnGet{
+    margin-top: 66px;
+    text-align: end;
+}
+.ipsum__btn{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 204%;
+    color: #fff;
+    border-radius: 10px;
+    padding: 11px 47px 11px 47px;
+    background-color: #dc7000;
+}
+
+@media screen and (min-width:768px) {
+    
+    .ipsum__frist{
+        border: 0.60px solid #cecece;
+        border-radius: 9px;
+        width: 322px;
+        height: 56px;
+    }
+
+    .ipsum__email{
+        border: 0.60px solid #cecece;
+        border-radius: 9px;
+        width: 671px;
+        height: 56px;
+    }
+
+    .ipsum__message{
+        border: 0.60px solid #cecece;
+        border-radius: 9px;
+        width: 671px;
+        height: 232px;
+    }
+
+    .ipsum__content{
+        margin-left: 22%;
+    }
+
+    .ipsum__btn{
+        margin-right: 20%;
+    }
+}
