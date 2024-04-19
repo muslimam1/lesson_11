@@ -1,0 +1,123 @@
+.lorem__title{
+    padding: 62px 118px 33px 117px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+    color: #848484;
+}
+
+.lorem__services{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+    color: #e47500;
+}
+
+.lorem__text{
+    margin-left: 27px;
+    margin-right: 28px;
+    margin-bottom: 33px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 180%;
+    text-align: center;
+    color: #222;
+}
+
+.lorem__words{
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-bottom: 27px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 187%;
+    text-align: center;
+    color: #898989;
+}
+
+.lorem__map{
+    margin-top: 85px;
+    margin-left: 52px;
+    margin-right: 23px;
+}
+
+.lorem__phone{
+    font-weight: 300;
+    font-size: 17px;
+    color: #333;
+    margin-top: 79px;
+
+    &::before{
+        content: " ";
+        display: inline-block;
+        margin-right: 25px;
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-image: url('../img/tel.svg');
+        background-position: left;
+    }
+}
+
+.lorem__phone::after{
+    content: " ";
+    display: inline-block;
+    width: 306px;
+    height: 2px;
+    background-repeat: no-repeat;
+    background-image: url('../img/line.svg');
+    
+}
+
+.lorem__gps{
+    font-weight: 300;
+    font-size: 17px;
+    color: #333;
+    margin-top: 76px;
+
+    &::before{
+        content: " ";
+        display: inline-block;
+        width: 20px;
+        height: 29px;
+        margin-right: 19px;
+        background-repeat: no-repeat;
+        background-image: url('../img/gps.svg');
+        background-position:left;
+    }
+}
+
+
+@media screen and (min-width:768px){
+    .lorem__title{
+        padding: 62px 118px 15px 117px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 209%;
+        color: #848484;
+    }
+
+    .lorem__text{
+        margin-left: 27px;
+        margin-right: 28px;
+        margin-bottom: 13px;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 180%;
+        text-align: center;
+        color: #222;
+    }
+    
+    .lorem__words{
+        margin-left: 56px;
+        margin-right: 56px;
+        margin-bottom: 27px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 187%;
+        text-align: center;
+        color: #898989;
+    }
+}

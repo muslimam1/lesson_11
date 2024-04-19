@@ -1,0 +1,125 @@
+.services__name{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 24px 19px 23px;
+    background-color: #e47500;
+}
+
+.header__top{
+    display: flex;
+    justify-content: end;
+    gap: 121px;
+    padding: 8px 98px 9px 121px;
+}
+
+.header__location{
+    font-weight: 400;
+    font-size: 10px;
+    color: #1a1a1a;
+
+    &::before{
+        content: " ";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 6px;
+        background-repeat: no-repeat;
+        background-image: url('../img/location.svg');
+        background-position: left;
+    }
+}
+
+.header__num{
+    font-weight: 400;
+    font-size: 10px;
+    color: #1a1a1a;
+    
+    &::before{
+        content: " ";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 6px;
+        background-repeat: no-repeat;
+        background-image: url('../img/phone.svg');
+        background-position: left;
+    }
+}
+
+.services__list{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.services__list-donts{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+
+    &::before{
+        content: " ";
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        margin-right: 5px;
+        background-repeat: no-repeat;
+        background-image: url('../img/ser_donts.svg');
+        background-position: left;
+    }
+}
+
+.services__contact{
+    font-weight: 400;
+    font-size: 13px;
+    padding: 11px 28px 11px 27px;
+    background-color: #fff;
+    color: #dc7000;
+    border-radius: 5px;
+}
+
+.services__link{
+    display: none;
+}
+
+.header__top{
+    display: none;
+}
+
+.services__logo{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 155%;
+    color: #fff;
+}
+
+.services__btn{
+    height: 21px;
+    width: 26px;
+    background-repeat: no-repeat;
+    background-image: url("../img/services.svg");
+    border: none;
+    background-color: transparent;
+}
+
+@media screen and (min-width:768px) {
+    .header__top{
+        display: inline-block;
+        display: flex;
+        justify-content: end;
+    }
+    .services__btn{
+        display: none;
+    }
+    .services__link{
+        margin-top: 5px;
+        display: inline-block;
+        display: flex;
+        justify-content: end;
+        gap: 65px;
+    }
+    .services__name{
+        padding-left: 63px;
+        padding-right: 83px;
+    }
+}
